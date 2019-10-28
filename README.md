@@ -2,6 +2,9 @@
 
 Go to the project directory
 
-activate environment -> source env/bin/activate
 
+run command  -> which python
+create virtual environment -> virtualenv -p /usr/bin/python3.7 env
+activate environment -> source env/bin/activate
+install requirements -> pip install -r requirements.txt
 run the spider ->  scrapy crawl blogabet -o blogabet.json
